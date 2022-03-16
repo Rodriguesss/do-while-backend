@@ -1,10 +1,12 @@
 {
   "name": "node_heat",
   "version": "1.0.0",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --exit-child src/server.ts"
+    "dev": "ts-node-dev --exit-child src/server.ts",
+    "tsc": "tsc",
+    "prod": "ts-node src/server"
   },
   "author": "Rodriguesss",
   "license": "ISC",
