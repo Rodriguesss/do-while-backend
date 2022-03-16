@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev --exit-child src/server.ts",
     "build": "tsc --build",
-    "prod": "node src/server"
+    "start": "node src/server"
   },
   "author": "Rodriguesss",
   "license": "ISC",
